@@ -10615,6 +10615,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1545627897}
+    - target: {fileID: 2691426371003544347, guid: ec6ac2734c5457b43afab76fd45e2302,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5cd06d2b1a67a704eb28d890c1e9585d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec6ac2734c5457b43afab76fd45e2302, type: 3}
 --- !u!4 &489628400 stripped
@@ -10629,7 +10634,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-50740
+  m_Name: pb_Mesh-1654
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -11036,7 +11041,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-50752
+  m_Name: pb_Mesh-1640
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
