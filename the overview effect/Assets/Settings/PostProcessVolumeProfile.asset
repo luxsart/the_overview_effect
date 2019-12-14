@@ -85,7 +85,7 @@ MonoBehaviour:
     value: 8
   saturation:
     overrideState: 1
-    value: -35
+    value: 33
   brightness:
     overrideState: 0
     value: 0
@@ -94,10 +94,10 @@ MonoBehaviour:
     value: -0.12
   contrast:
     overrideState: 1
-    value: 21
+    value: 32
   mixerRedOutRedIn:
     overrideState: 0
-    value: 145
+    value: -0
   mixerRedOutGreenIn:
     overrideState: 0
     value: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
     value: 0
   mixerGreenOutRedIn:
     overrideState: 0
-    value: 0
+    value: 109
   mixerGreenOutGreenIn:
     overrideState: 0
     value: 100
@@ -1343,15 +1343,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
   shutterAngle:
-    overrideState: 0
+    overrideState: 1
     value: 270
   sampleCount:
-    overrideState: 0
+    overrideState: 1
     value: 10
 --- !u!114 &114416150543908578
 MonoBehaviour:
@@ -1365,22 +1365,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3f6f3f7c722b4544b97e3c75840aa33, type: 3}
   m_Name: AutoExposure
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
   filtering:
     overrideState: 0
-    value: {x: 50, y: 95}
+    value: {x: 1, y: 21.5}
   minLuminance:
     overrideState: 0
     value: 0
   maxLuminance:
-    overrideState: 0
+    overrideState: 1
     value: 0
   keyValue:
     overrideState: 1
-    value: 0.8
+    value: 1.09
   eyeAdaptation:
     overrideState: 0
     value: 0
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -1485,7 +1485,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 4
+    value: 1.49
   threshold:
     overrideState: 1
     value: 0.36
@@ -1500,20 +1500,20 @@ MonoBehaviour:
     value: 8
   anamorphicRatio:
     overrideState: 1
-    value: -1
+    value: 1
   color:
     overrideState: 1
-    value: {r: 1, g: 1, b: 1, a: 1}
+    value: {r: 0.8915094, g: 0.9051574, b: 1, a: 1}
   fastMode:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   dirtTexture:
-    overrideState: 0
-    value: {fileID: 0}
+    overrideState: 1
+    value: {fileID: 2800000, guid: 3b0b7c1f4ac9f6b499e27cf84e722ff4, type: 3}
     defaultState: 1
   dirtIntensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
 --- !u!114 &114926529047624142
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1534,23 +1534,23 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   color:
-    overrideState: 0
-    value: {r: 0, g: 0, b: 0, a: 1}
+    overrideState: 1
+    value: {r: 0.41509432, g: 0.36289382, b: 0.30740476, a: 0.54901963}
   center:
-    overrideState: 0
-    value: {x: 0.5, y: 0.5}
+    overrideState: 1
+    value: {x: 0.5, y: 0.55}
   intensity:
     overrideState: 1
-    value: 0.153
+    value: 0.87
   smoothness:
     overrideState: 1
-    value: 0.25
+    value: 0.02
   roundness:
     overrideState: 1
-    value: 0.84
+    value: 0.89
   rounded:
     overrideState: 1
-    value: 1
+    value: 0
   mask:
     overrideState: 0
     value: {fileID: 0}
