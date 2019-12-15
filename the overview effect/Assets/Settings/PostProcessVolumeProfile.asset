@@ -45,25 +45,25 @@ MonoBehaviour:
     defaultState: 1
   tonemapper:
     overrideState: 1
-    value: 2
+    value: 3
   toneCurveToeStrength:
-    overrideState: 0
+    overrideState: 1
     value: 0
   toneCurveToeLength:
-    overrideState: 0
-    value: 0.5
+    overrideState: 1
+    value: 0.024
   toneCurveShoulderStrength:
-    overrideState: 0
-    value: 0
-  toneCurveShoulderLength:
-    overrideState: 0
-    value: 0.5
-  toneCurveShoulderAngle:
-    overrideState: 0
-    value: 0
-  toneCurveGamma:
-    overrideState: 0
+    overrideState: 1
     value: 1
+  toneCurveShoulderLength:
+    overrideState: 1
+    value: 3.05
+  toneCurveShoulderAngle:
+    overrideState: 1
+    value: 0.716
+  toneCurveGamma:
+    overrideState: 1
+    value: 0.92
   ldrLut:
     overrideState: 0
     value: {fileID: 0}
@@ -72,11 +72,11 @@ MonoBehaviour:
     overrideState: 0
     value: 1
   temperature:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -11
   tint:
     overrideState: 0
-    value: 100
+    value: 63
   colorFilter:
     overrideState: 0
     value: {r: 1, g: 0.15566039, b: 0.6954317, a: 1}
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -1439,7 +1439,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.5
+    value: 1.58
   color:
     overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -1457,10 +1457,10 @@ MonoBehaviour:
     value: -12
   thicknessModifier:
     overrideState: 1
-    value: 1
+    value: 10
   directLightingStrength:
     overrideState: 1
-    value: 0
+    value: 1
   radius:
     overrideState: 0
     value: 0.25
@@ -1531,17 +1531,17 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   mode:
-    overrideState: 0
+    overrideState: 1
     value: 0
   color:
     overrideState: 1
-    value: {r: 0.41509432, g: 0.36289382, b: 0.30740476, a: 0.54901963}
+    value: {r: 0.4245283, g: 0.34019476, b: 0.29036134, a: 0.9098039}
   center:
     overrideState: 1
     value: {x: 0.5, y: 0.55}
   intensity:
     overrideState: 1
-    value: 0.87
+    value: 0.752
   smoothness:
     overrideState: 1
     value: 0.02
