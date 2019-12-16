@@ -78,7 +78,67 @@ ModelImporter:
     4300020: vanGrp
     4300022: wingsGrp
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glassGrpMat
+    second: {fileID: 2100000, guid: a503ff8c237c42040b8d854fb9733268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light1_mainShellGrpMat
+    second: {fileID: 2100000, guid: 574342effa89b6a4b8b29d01b9655de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_topShellGrpMat
+    second: {fileID: 2100000, guid: 574342effa89b6a4b8b29d01b9655de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light3_topShellGrpMat
+    second: {fileID: 2100000, guid: 574342effa89b6a4b8b29d01b9655de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainShellGrpMat
+    second: {fileID: 2100000, guid: 10058f5447fecac45a0b4314789d236f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: noseGrpMat
+    second: {fileID: 2100000, guid: 1fe1fc81641004749b572e8e836df04a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankGlassGrpMat
+    second: {fileID: 2100000, guid: a503ff8c237c42040b8d854fb9733268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankLidsGrpMat
+    second: {fileID: 2100000, guid: 574342effa89b6a4b8b29d01b9655de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankLiquidGrpMat
+    second: {fileID: 2100000, guid: 574342effa89b6a4b8b29d01b9655de1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topShellGrpMat
+    second: {fileID: 2100000, guid: 95741fd8a97711a49a6e4af19a7ffd50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vanGrpMat
+    second: {fileID: 2100000, guid: b2b4244bc7f07dc4bbffe36c27ff361f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wingsGrpMat
+    second: {fileID: 2100000, guid: 10058f5447fecac45a0b4314789d236f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

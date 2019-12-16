@@ -84,7 +84,72 @@ ModelImporter:
     4300022: vanGrp
     4300024: wingsGrp
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glassGrpMat
+    second: {fileID: 2100000, guid: a503ff8c237c42040b8d854fb9733268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_10_topShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_11_topShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_12_topShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_6_mainShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_7_topShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_8_topShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light2_9_topShellGrpMat
+    second: {fileID: 2100000, guid: b72c1f2070042154a84f2a137c550deb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mainShellGrpMat
+    second: {fileID: 2100000, guid: 1fd20ad8fe3102040a1b6183f4e8463b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: noseGrpMat
+    second: {fileID: 2100000, guid: 1fd20ad8fe3102040a1b6183f4e8463b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topShellGrpMat
+    second: {fileID: 2100000, guid: 1fd20ad8fe3102040a1b6183f4e8463b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vanGrpMat
+    second: {fileID: 2100000, guid: 1fd20ad8fe3102040a1b6183f4e8463b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wingsGrpMat
+    second: {fileID: 2100000, guid: 1fd20ad8fe3102040a1b6183f4e8463b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
