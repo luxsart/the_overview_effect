@@ -7,17 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ship cockpit window
+  m_Name: ship base color
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_ShaderKeywords: _BLENDMODE_ALPHA _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _ENABLE_FOG_ON_TRANSPARENT
-    _ENABLE_GEOMETRIC_SPECULAR_AA _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT
-    _NORMALMAP_TANGENT_SPACE _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _MATERIAL_FEATURE_ANISOTROPY _MATERIAL_FEATURE_CLEAR_COAT _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
   disabledShaderPasses:
   - DistortionVectors
   - TransparentDepthPrepass
@@ -120,9 +117,9 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaCutoffPostpass: 0.5
     - _AlphaCutoffPrepass: 0.5
-    - _Anisotropy: 0.52
+    - _Anisotropy: 0
     - _BlendMode: 0
-    - _CoatMask: 0.05
+    - _CoatMask: 0.22
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
@@ -151,11 +148,11 @@ Material:
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 1
     - _Drag: 1
-    - _DstBlend: 10
+    - _DstBlend: 0
     - _EmissiveColorMode: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _EnableGeometricSpecularAA: 1
+    - _EnableGeometricSpecularAA: 0
     - _EnableMotionVectorForVertexAnimation: 0
     - _EnableSpecularOcclusion: 0
     - _EnableWind: 0
@@ -191,7 +188,7 @@ Material:
     - _SSRefractionProjectionModel: 0
     - _ShiverDirectionality: 0.5
     - _ShiverDrag: 0.2
-    - _Smoothness: 0.88
+    - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -204,7 +201,7 @@ Material:
     - _Stiffness: 1
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
-    - _SurfaceType: 1
+    - _SurfaceType: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
@@ -213,17 +210,17 @@ Material:
     - _TransparentBackfaceEnable: 0
     - _TransparentDepthPostpassEnable: 0
     - _TransparentDepthPrepassEnable: 0
-    - _TransparentSortPriority: 1
+    - _TransparentSortPriority: 0
     - _UVBase: 0
     - _UVDetail: 0
     - _UVEmissive: 0
-    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestModeDistortion: 4
-    - _ZWrite: 0
+    - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0, g: 0.4019558, b: 0.7607843, a: 1}
+    - _Color: {r: 0, g: 0.40195578, b: 0.7607843, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
