@@ -23,7 +23,12 @@ ModelImporter:
     4300000: tankGlassGrp
     4300002: tankLidsGrp
     4300004: tankLiquidGrp
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tankGlassGrpMat
+    second: {fileID: 2100000, guid: a503ff8c237c42040b8d854fb9733268, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

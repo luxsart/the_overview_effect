@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675402478271221312}
   - component: {fileID: 7526252252246940587}
+  - component: {fileID: 2256219038395023542}
   m_Layer: 0
   m_Name: spaceship A
   m_TagString: Untagged
@@ -62,6 +63,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &2256219038395023542
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675402478271451744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.52
+  m_Height: 1
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.63, z: 1.14}
 --- !u!1 &1675402478271451746
 GameObject:
   m_ObjectHideFlags: 0
