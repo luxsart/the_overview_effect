@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_ShaderKeywords: _MAPPING_TRIPLANAR _MATERIAL_FEATURE_IRIDESCENCE _NORMALMAP_TANGENT_SPACE
     _NORMALMAP_TANGENT_SPACE0 _NORMALMAP_TANGENT_SPACE1 _NORMALMAP_TANGENT_SPACE2
-    _NORMALMAP_TANGENT_SPACE3 _USECOLORMAP_ON
+    _NORMALMAP_TANGENT_SPACE3 _PIXEL_DISPLACEMENT _USECOLORMAP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -22,6 +22,7 @@ Material:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -364,9 +365,9 @@ Material:
     - _DiffusionProfile1: 0
     - _DiffusionProfile2: 0
     - _DiffusionProfile3: 0
-    - _DisplacementLockObjectScale: 1
-    - _DisplacementLockTilingScale: 1
-    - _DisplacementMode: 0
+    - _DisplacementLockObjectScale: 0
+    - _DisplacementLockTilingScale: 0
+    - _DisplacementMode: 2
     - _DistortionBlendMode: 0
     - _DistortionBlurBlendMode: 0
     - _DistortionBlurDstBlend: 1
@@ -390,7 +391,7 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
-    - _EnableMotionVectorForVertexAnimation: 1
+    - _EnableMotionVectorForVertexAnimation: 0
     - _EnableSpecularOcclusion: 0
     - _EnableWind: 0
     - _EnergyConservingSpecularColor: 1
@@ -403,7 +404,7 @@ Material:
     - _HeightAmplitude1: 0.02
     - _HeightAmplitude2: 0.02
     - _HeightAmplitude3: 0.02
-    - _HeightCenter: 0.5
+    - _HeightCenter: 1
     - _HeightCenter0: 0.5
     - _HeightCenter1: 0.5
     - _HeightCenter2: 0.5

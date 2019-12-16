@@ -396,6 +396,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1063800682375097210}
   - component: {fileID: 329236543678521315}
+  - component: {fileID: 2332571161999422116}
+  - component: {fileID: 7728281176777465980}
   m_Layer: 0
   m_Name: spaceship passenger
   m_TagString: Untagged
@@ -441,3 +443,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &2332571161999422116
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063800682375460698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5, y: 5.25, z: 13.03}
+  m_Center: {x: 0, y: 2.28, z: -2.03}
+--- !u!65 &7728281176777465980
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063800682375460698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.61, y: 1, z: 3.21}
+  m_Center: {x: 0, y: 0.64, z: -2.42}
