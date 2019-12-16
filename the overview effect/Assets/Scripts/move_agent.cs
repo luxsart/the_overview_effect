@@ -9,13 +9,17 @@ public class move_agent : MonoBehaviour
     private NavMeshAgent agent;
     private float distance;
     private bool is_following = false;
-    public float rotationSpeed = 1.0f;
-    public float start_follow_distance = 4.0f;
-    public float stop_follow_distance = 30.0f;
-    public float stop_waving_distance = 20.0f;
+    private bool found_home = false;
     Vector2 smoothDeltaPosition = Vector2.zero;
     Vector2 velocity = Vector2.zero;
     Animator anim;
+
+    public string spaceman_goal = "City A";
+    public float rotationSpeed = 5.0f;
+    public float start_follow_distance = 4.0f;
+    public float stop_follow_distance = 30.0f;
+    public float stop_waving_distance = 20.0f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,34 +61,43 @@ public class move_agent : MonoBehaviour
 
         //agent.isStopped = true; agent.ResetPath();
         distance = Vector3.Distance(transform.position, goal.position);
-        if (is_following == false)
+        if (found_home == false)
         {
-            if (distance < start_follow_distance)
+            if (is_following == false)
             {
-                anim.Play("Wave");
-                is_following = true;
-            } else if (distance > stop_waving_distance && distance < stop_follow_distance*1.5f)
-            {
-                anim.Play("BigWave");
+                if (distance < start_follow_distance)
+                {
+                    anim.Play("Wave");
+                    is_following = true;
+                } else if (distance > stop_waving_distance && distance < stop_follow_distance * 1.5f) {
+                    anim.Play("BigWave");
+                }
+                if (distance < stop_follow_distance * 1.5f)
+                {
+                    RotateTowards(goal.transform);
+                }
             }
-            if (distance < stop_follow_distance * 1.5f)
+            else if (distance < start_follow_distance)
             {
                 RotateTowards(goal.transform);
             }
+            else if (distance > start_follow_distance && distance < stop_follow_distance)
+            {
+                agent.destination = goal.position;
+            }
+            else
+            {
+                agent.isStopped = true;
+                agent.ResetPath();
+                is_following = false;
+            }
         }
-        else if (distance < start_follow_distance) {
+        else if (distance < stop_follow_distance*0.5f)
+        {
+            anim.Play("BigWave");
             RotateTowards(goal.transform);
         }
-        else if (distance > start_follow_distance && distance < stop_follow_distance)
-        {
-            agent.destination = goal.position;
-        }
-        else
-        {
-            agent.isStopped = true;
-            agent.ResetPath();
-            is_following = false;
-        }
+        print(found_home);
     }
 
     void OnAnimatorMove()
@@ -98,5 +111,11 @@ public class move_agent : MonoBehaviour
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(direction);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == spaceman_goal)
+            found_home = true;
     }
 }
