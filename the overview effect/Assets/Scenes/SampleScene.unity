@@ -103,7 +103,7 @@ NavMeshSettings:
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
-    ledgeDropHeight: 0
+    ledgeDropHeight: 500
     maxJumpAcrossDistance: 1
     minRegionArea: 2
     manualCellSize: 0
@@ -12790,6 +12790,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274741457770242915, guid: 7c2323375b54d94449fb1a4e5cb74529,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274741457770242915, guid: 7c2323375b54d94449fb1a4e5cb74529,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 90.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274741457770242915, guid: 7c2323375b54d94449fb1a4e5cb74529,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 58.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274741457770242915, guid: 7c2323375b54d94449fb1a4e5cb74529,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 2.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274741457770242915, guid: 7c2323375b54d94449fb1a4e5cb74529,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -14.78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c2323375b54d94449fb1a4e5cb74529, type: 3}
