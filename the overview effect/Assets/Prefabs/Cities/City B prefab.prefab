@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2370948769847730803}
   m_Layer: 0
   m_Name: City B prefab
-  m_TagString: Untagged
+  m_TagString: City B
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

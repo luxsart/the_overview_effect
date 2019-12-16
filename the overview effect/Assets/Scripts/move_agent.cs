@@ -94,10 +94,9 @@ public class move_agent : MonoBehaviour
         }
         else if (distance < stop_follow_distance*0.5f)
         {
-            anim.Play("BigWave");
+            anim.Play("SittingIdle0");
             RotateTowards(goal.transform);
         }
-        print(found_home);
     }
 
     void OnAnimatorMove()
@@ -117,5 +116,8 @@ public class move_agent : MonoBehaviour
     {
         if (collision.gameObject.tag == spaceman_goal)
             found_home = true;
+            agent.isStopped = true;
+            agent.ResetPath();
+            is_following = false;
     }
 }
